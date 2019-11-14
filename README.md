@@ -20,8 +20,10 @@ $ lerna exec yarn link
 Once you've run the above command inside of the `template-service` you run the following
 
 ```sh
-$ yarn link @kerthin/cqrs
-$ yarn link @kerthin/utils
+$ yarn link "@kerthin/cqrs" && \
+  yarn link "@kerthin/utils" && \
+  yarn link "@kerthin/logger" && \
+  yarn link "@kerthin/bus"
 ```
 
 
